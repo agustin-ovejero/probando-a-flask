@@ -5,3 +5,5 @@ app = Flask(__name__)
 def hello_world():
     return "<p>Hola, flask<p>"
     
+if __name__ == '__main__':
+    app.run(debug=True)

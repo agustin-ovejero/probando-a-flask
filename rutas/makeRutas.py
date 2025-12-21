@@ -14,3 +14,6 @@ def como_andas():
 @app.route("/como-andas/chau")
 def chau():
     return "<h1>Chau<h1>"
+
+if __name__ == '__main__':
+    app.run(debug=True)
