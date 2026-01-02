@@ -16,7 +16,7 @@ def hey():
 @app.route('/saludo/')
 @app.route('/saludo/<name>')
 def saludo(name=None):
-    return render_template('hello.html', person=name)
+    return render_template('hello.html', person=name) # lo va a buscar en la carpeta de templates
 
 if __name__ == "__main__":
     app.run(debug=True)
